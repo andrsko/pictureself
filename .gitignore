@@ -1,0 +1,23 @@
+.vscode
+
+
+# server:
+
+# dependencies
+venv/
+
+# testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# production
+dist/
+build/
+*.egg-info/
+
+# misc
+*.pyc
+__pycache__/
+
+instance/
