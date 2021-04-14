@@ -1,7 +1,10 @@
 import React from "react";
-import "./App.css";
+import { api } from "./api";
 
 function App() {
+  api.get("/").then((data) => {
+    alert(data.message);
+  });
   return <div></div>;
 }
 
